@@ -1,0 +1,15 @@
+[2025-06-11 14:26:13] Total headlines found: 15
+[2025-06-11 14:26:13] [EN] Govt announces new temperature range for ACs
+[2025-06-11 14:26:14] [EN] Australia, South Africa reveal playing XIs a day before WTC final
+[2025-06-11 14:26:14] [EN] Lowest full Moon until 2043 to rise tonight
+[2025-06-11 14:26:15] Error: (y + height) is outside of Raster
+[2025-06-11 14:35:53] Total headlines found: 15
+[2025-06-11 14:35:53] [EN] Govt announces new temperature range for ACs
+[2025-06-11 14:35:54] [EN] Australia, South Africa reveal playing XIs a day before WTC final
+[2025-06-11 14:35:54] [EN] Lowest full Moon until 2043 to rise tonight
+[2025-06-11 14:35:55] Error: (y + height) is outside of Raster
+[2025-06-11 14:41:24] Total headlines found: 15
+[2025-06-11 14:41:24] [EN] Govt announces new temperature range for ACs
+[2025-06-11 14:41:25] [EN] Australia, South Africa reveal playing XIs a day before WTC final
+[2025-06-11 14:41:27] [EN] Lowest full Moon until 2043 to rise tonight
+[2025-06-11 14:41:28] Error: (y + height) is outside of Raster

@@ -1,0 +1,21 @@
+[13:22:32] Opened Inshorts website.
+[13:22:32] Headlines loaded successfully.
+[13:22:32] Total headlines found: 15
+[13:22:32] [EN] Govt announces new temperature range for ACs
+[13:22:32] [EN] Australia, South Africa reveal playing XIs a day before WTC final
+[13:22:32] [EN] Lowest full Moon until 2043 to rise tonight
+[13:22:32] [EN] What will happen if World Test Championship final ends in a draw or tie?
+[13:22:32] [EN] ChatGPT down for thousands of users in massive outage
+[13:22:32] [EN] Meghalaya Police file FIRs against those who made communal statements after MP man's murder
+[13:22:32] [EN] Raj Kushwaha used to call Sonam his 'didi': Raj's sister
+[13:22:32] [EN] 'Together for 7 lives,' Sonam posted from husband Raja's phone after his murder
+[13:22:32] [EN] AAP says Atishi detained during protest in Kalkaji; police denies
+[13:22:33] [EN] Red alert for heatwave issued in Delhi-NCR for next 3 days
+[13:22:33] [EN] Which states have reported cases of XFG variant of COVID-19?
+[13:22:33] [EN] US resumes visas for Harvard students after Trump ban blocked
+[13:22:33] [EN] How much did India pay for Indian astronaut Shukla's space mission?
+[13:22:33] [EN] Trump asked if he'll get rid of Tesla & Starlink at WH, he replies
+[13:22:33] [EN] Govt plans to completely remove 12% GST slab, medicines & tractors become hurdles: Report
+[13:22:33]  English headlines: 15
+[13:22:33]  Non-English headlines: 0
+[13:22:33] 📸 Screenshot captured for successful validation.
