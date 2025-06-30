@@ -1,5 +1,6 @@
 package com.job.bot;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import com.job.bot.utils.ScreenshotUtils;
 import com.job.bot.utils.LogUtils;
 import org.openqa.selenium.*;
@@ -7,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+import org.openqa.selenium.chrome.ChromeOptions;
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.awt.*;
@@ -21,6 +22,15 @@ public class NewsLanguageValidator {
 
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless=new"); // Modern headless mode
+        options.addArguments("--disable-gpu");
+        options.addArguments("--no-sandbox"); // Required in CI
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--window-size=1920,1080");
+
+        // This prevents the 'user-data-dir' error in CI
+        options.addArguments("--user-data-dir=/tmp/chrome-user-data");
         WebDriver driver = new ChromeDriver();
 
         // Ensure directories exist
