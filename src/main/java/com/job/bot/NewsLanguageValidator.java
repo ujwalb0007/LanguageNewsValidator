@@ -30,8 +30,8 @@ public class NewsLanguageValidator {
         options.addArguments("--window-size=1920,1080");
 
         // This prevents the 'user-data-dir' error in CI
-        options.addArguments("--user-data-dir=/tmp/chrome-user-data");
-        WebDriver driver = new ChromeDriver();
+        options.addArguments("--user-data-dir=/tmp/chrome-user-" + System.currentTimeMillis());
+        WebDriver driver = new ChromeDriver(options);
 
         // Ensure directories exist
         new File("screenshots").mkdirs();
