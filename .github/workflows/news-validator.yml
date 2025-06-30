@@ -1,0 +1,46 @@
+name: Run News Language Validator
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  run-validator:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Install Maven
+        run: sudo apt install maven -y
+
+      - name: Build project
+        run: mvn clean compile
+
+      - name: Run Validator
+        run: mvn exec:java -Dexec.mainClass="com.job.bot.NewsLanguageValidator"
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: screenshots
+          path: screenshots/
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: reports
+          path: reports/
